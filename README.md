@@ -19,11 +19,16 @@ This project helps beginners understand:
 →state variables
 →access control logic
 
-## Features
-1.Admin assigned automatically on deployment
-2.Only admin can update secret data
-3.Unauthorized users are blocked
-4.Tracks how many times data was updated
+# 🚀 Features
+
+- Admin is assigned automatically during contract deployment
+- Only admin can access protected functions
+- Secret data can be updated securely
+- Unauthorized users are restricted from modifying data
+- Tracks the number of successful updates
+- Demonstrates basic access control in Solidity
+- Uses modifiers for reusable security logic
+- Simple and beginner-friendly smart contract structure
 
 #  Workflow
 
