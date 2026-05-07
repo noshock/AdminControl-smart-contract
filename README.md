@@ -25,9 +25,14 @@ This project helps beginners understand:
 3.Unauthorized users are blocked
 4.Tracks how many times data was updated
 
-## How It Works
-1.Deploy contract
-2.Deployer becomes admin
-3.Admin can update secret
-4.Other users cannot access protected function
-5.Update counter increases after each successful update
+#  Workflow
+
+1. Deploy the smart contract on Remix or Ethereum network.
+
+2. The deployer address automatically becomes the admin using `msg.sender`.
+
+3. Admin can call the `setSecret()` function to update secret data.
+
+4. Other users cannot access protected functions because of the `onlyAdmin` modifier.
+
+5. Every successful secret update increases the `updateCount` variable.
