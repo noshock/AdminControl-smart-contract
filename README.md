@@ -19,7 +19,7 @@ This project helps beginners understand:
 →state variables
 →access control logic
 
-# 🚀 Features
+#  Features
 
 - Admin is assigned automatically during contract deployment
 - Only admin can access protected functions
